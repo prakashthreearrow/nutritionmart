@@ -1,0 +1,19 @@
+image: node:10
+
+stages:
+  - deploy
+
+deployment:
+  stage: deploy
+  only:
+    - staging
+    - pre-production
+    - production
+  before_script:
+    - export env_file=${CI_COMMIT_REF_NAME/-/_}_env
+    - cp ${!env_file} ./.env
+    - npm install
+    - npm install -g serverless
+  script:
+    - serverless create_domain
+    - serverless deploy

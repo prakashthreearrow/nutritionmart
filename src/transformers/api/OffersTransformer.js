@@ -1,0 +1,25 @@
+module.exports = {
+  offer: {
+    id: 'id',
+    offer_type: 'offer_type',
+    name: 'name',
+    coupon_code: 'coupon_code',
+    discount: 'discount',
+    discount_unit: 'discount_unit',
+    terms_condition: 'terms_condition',
+    start_date: 'start_date',
+    end_date: 'end_date',
+    minimum_order_amount: 'minimum_order_amount',
+    maximum_discount: 'maximum_discount',
+    maximum_usage: 'maximum_usage',
+    payment_method_ids: 'payment_method_ids',
+    device: 'device',
+    user_type: 'user_type',
+    image: 'image',
+  },
+  offerList: {
+    id: 'id',
+    name: 'name',
+    image: 'image',
+  },
+}

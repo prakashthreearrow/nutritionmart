@@ -1,0 +1,28 @@
+module.exports = {
+  blog: {
+    id: 'id',
+    title: 'title',
+    blog_category_title: 'blog_category_title',
+    description: 'description',
+    status: 'status',
+    blog_category_id: 'blog_category_id',
+    image: 'image',
+    author_name: 'author_name',
+    reading_minute: 'reading_minute',
+    created_at: 'createdAt',
+    updated_at: 'updatedAt',
+  },
+  blogDetail: {
+    id: 'id',
+    title: 'title',
+    description: 'description',
+    status: 'status',
+    blog_category_id: 'blog_category_id',
+    image: 'image',
+    author_name: 'author_name',
+    reading_minute: 'reading_minute',
+    category_name: 'category_name',
+    created_at: 'createdAt',
+    updated_at: 'updatedAt',
+  },
+}

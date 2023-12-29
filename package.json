@@ -1,0 +1,69 @@
+{
+  "name": "nutristar",
+  "version": "1.0.0",
+  "description": "online platform for health products",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon --exec sls offline",
+    "serve": "nodemon server.js",
+    "eslint": "eslint src/controller src/middleware src/model src/routes src/services"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mindinventory.com:nutristar/backend.git"
+  },
+  "author": "Mindinventory",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.735.0",
+    "bcrypt": "^4.0.1",
+    "cache-manager-fs": "^1.0.8",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "email-templates": "^7.0.2",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "firebase-admin": "^9.2.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "i18n": "^0.10.0",
+    "jimp": "^0.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "neat-csv": "^5.2.0",
+    "node-fetch": "^2.6.0",
+    "nodeman": "^1.1.2",
+    "object-transformer": "0.0.5",
+    "request-ip": "^2.1.3",
+    "sequelize": "^5.21.11",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-http": "^2.5.0",
+    "slugify": "^1.4.0",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "sequelize-cli": "^6.2.0",
+    "serverless": "^1.74.1",
+    "serverless-domain-manager": "^3.3.2",
+    "serverless-offline": "^5.12.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

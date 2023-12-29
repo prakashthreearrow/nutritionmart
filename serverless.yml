@@ -1,0 +1,57 @@
+service: ${env:APP_NAME}
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: ${env:STAGE}
+  region: ${env:AMZ_REGION}
+
+plugins:
+  - serverless-offline
+  - serverless-dotenv-plugin
+  - serverless-domain-manager
+
+custom:
+  customDomain:
+    domainName: ${env:DOMAIN_NAME}
+    basePath: ''
+    stage: ${env:STAGE}
+    createRoute53Record: true
+    certificateName: ${env:SSL_CERT_NAME}
+    endpointType: 'regional'
+  serverless-offline:
+    port: ${env:PORT}
+    host: ${env:HOST}
+  dotenv:
+    include:
+      - ENVIRONMENT
+      - APP_NAME
+      - ADMIN_URL
+      - ORIGINS
+      - MYSQL_HOST
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+      - MYSQL_DB
+      - S3_ENABLE
+      - AMZ_ACCESS_KEY
+      - AMZ_SECRET_ACCESS_KEY
+      - AMZ_REGION
+      - AMZ_BUCKET
+      - AMZ_BUCKET_URL
+      - SEND_EMAIL
+      - MAILGUN_API_KEY
+      - MAILGUN_DOMAIN
+      - MAILGUN_ENDPOINT
+      - CONTACT_EMAIL
+      - GENERATE_AND_SEND_OTP
+      - MSG91_SEND_OTP_URL
+      - JWT_SECRETKEY
+      - JWT_CUSTOMER_SECRETKEY
+      - SUPER_ADMIN_TOKEN_EXP
+      - SUB_ADMIN_TOKEN_EXP
+
+functions:
+  app:
+    handler: server.app
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'

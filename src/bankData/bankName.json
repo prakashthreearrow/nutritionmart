@@ -1,0 +1,368 @@
+[
+  {
+    "ID": 47,
+    "ShortName": "ALLB",
+    "Bank": "Allahabad Bank",
+    "PaymentMethod": "NB_ALLB"
+  },
+  {
+    "ID": 35,
+    "ShortName": "ANDHRA",
+    "Bank": "Andhra Bank",
+    "PaymentMethod": "NB_ANDHRA"
+  },
+  {
+    "ID": 1,
+    "ShortName": "AXIS",
+    "Bank": "Axis Bank",
+    "PaymentMethod": "NB_AXIS"
+  },
+  {
+    "ID": 48,
+    "ShortName": "BBKM",
+    "Bank": "Bank of Bahrain and Kuwait",
+    "PaymentMethod": "NB_BBKM"
+  },
+  {
+    "ID": 38,
+    "ShortName": "BOB",
+    "Bank": "Bank of Baroda",
+    "PaymentMethod": "NB_BOB"
+  },
+  {
+    "ID": 46,
+    "ShortName": "BOBCORP",
+    "Bank": "Bank of Baroda Corporate",
+    "PaymentMethod": "NB_BOBCORP"
+  },
+  {
+    "ID": 2,
+    "ShortName": "BOI",
+    "Bank": "Bank of India",
+    "PaymentMethod": "NB_BOI"
+  },
+  {
+    "ID": 3,
+    "ShortName": "BOM",
+    "Bank": "Bank of Maharashtra",
+    "PaymentMethod": "NB_BOM"
+  },
+  {
+    "ID": 64,
+    "ShortName": "BHARAT",
+    "Bank": "Bharat Bank",
+    "PaymentMethod": "NB_BHARAT"
+  },
+  {
+    "ID": 60,
+    "ShortName": "COSMOS",
+    "Bank": "COSMOS Bank",
+    "PaymentMethod": "NB_COSMOS"
+  },
+  {
+    "ID": 28,
+    "ShortName": "CANR",
+    "Bank": "Canara Bank",
+    "PaymentMethod": "NB_CANR"
+  },
+  {
+    "ID": 39,
+    "ShortName": "CSB",
+    "Bank": "Catholic Syrian Bank",
+    "PaymentMethod": "NB_CSB"
+  },
+  {
+    "ID": 4,
+    "ShortName": "CBI",
+    "Bank": "Central Bank Of India",
+    "PaymentMethod": "NB_CBI"
+  },
+  {
+    "ID": 30,
+    "ShortName": "CITI",
+    "Bank": "Citi Bank NetBanking",
+    "PaymentMethod": "NB_CITI"
+  },
+  {
+    "ID": 27,
+    "ShortName": "CUB",
+    "Bank": "CityUnion",
+    "PaymentMethod": "NB_CUB"
+  },
+  {
+    "ID": 5,
+    "ShortName": "CORP",
+    "Bank": "Corporation Bank",
+    "PaymentMethod": "NB_CORP"
+  },
+  {
+    "ID": 59,
+    "ShortName": "DENA",
+    "Bank": "DENA Bank",
+    "PaymentMethod": "NB_DENA"
+  },
+  {
+    "ID": 31,
+    "ShortName": "DEUT",
+    "Bank": "Deutsche Bank",
+    "PaymentMethod": "NB_DEUT"
+  },
+  {
+    "ID": 6,
+    "ShortName": "DCB",
+    "Bank": "Development Credit Bank",
+    "PaymentMethod": "NB_DCB"
+  },
+  {
+    "ID": 33,
+    "ShortName": "DLS",
+    "Bank": "Dhanalaxmi Bank",
+    "PaymentMethod": "NB_DLS"
+  },
+  {
+    "ID": 7,
+    "ShortName": "FED",
+    "Bank": "Federal Bank",
+    "PaymentMethod": "NB_FED"
+  },
+  {
+    "ID": 8,
+    "ShortName": "HDFC",
+    "Bank": "HDFC Bank",
+    "PaymentMethod": "NB_HDFC"
+  },
+  {
+    "ID": 9,
+    "ShortName": "ICICI",
+    "Bank": "ICICI Netbanking",
+    "PaymentMethod": "NB_ICICI"
+  },
+  {
+    "ID": 11,
+    "ShortName": "INDB",
+    "Bank": "Indian Bank",
+    "PaymentMethod": "NB_INDB"
+  },
+  {
+    "ID": 13,
+    "ShortName": "IOB",
+    "Bank": "Indian Overseas Bank",
+    "PaymentMethod": "NB_IOB"
+  },
+  {
+    "ID": 12,
+    "ShortName": "INDUS",
+    "Bank": "IndusInd Bank",
+    "PaymentMethod": "NB_INDUS"
+  },
+  {
+    "ID": 10,
+    "ShortName": "IDBI",
+    "Bank": "Industrial Development Bank of India",
+    "PaymentMethod": "NB_IDBI"
+  },
+  {
+    "ID": 14,
+    "ShortName": "JNK",
+    "Bank": "Jammu and Kashmir Bank",
+    "PaymentMethod": "NB_JNK"
+  },
+  {
+    "ID": 49,
+    "ShortName": "JSB",
+    "Bank": "Janata Sahakari Bank",
+    "PaymentMethod": "NB_JSB"
+  },
+  {
+    "ID": 15,
+    "ShortName": "KARN",
+    "Bank": "Karnataka Bank",
+    "PaymentMethod": "NB_KARN"
+  },
+  {
+    "ID": 16,
+    "ShortName": "KVB",
+    "Bank": "Karur Vysya",
+    "PaymentMethod": "NB_KVB"
+  },
+  {
+    "ID": 32,
+    "ShortName": "KOTAK",
+    "Bank": "Kotak Bank",
+    "PaymentMethod": "NB_KOTAK"
+  },
+  {
+    "ID": 50,
+    "ShortName": "LVBCORP",
+    "Bank": "Lakshmi Vilas Bank Corporate",
+    "PaymentMethod": "NB_LVBCORP"
+  },
+  {
+    "ID": 51,
+    "ShortName": "LVB",
+    "Bank": "Lakshmi Vilas Bank Retail",
+    "PaymentMethod": "NB_LVB"
+  },
+  {
+    "ID": 52,
+    "ShortName": "NKGSB",
+    "Bank": "North Kanara GSB",
+    "PaymentMethod": "NB_NKGSB"
+  },
+  {
+    "ID": 40,
+    "ShortName": "OBC",
+    "Bank": "Oriental Bank Of Commerce",
+    "PaymentMethod": "NB_OBC"
+  },
+  {
+    "ID": 37,
+    "ShortName": "PNB",
+    "Bank": "Punjab National Bank",
+    "PaymentMethod": "NB_PNB"
+  },
+  {
+    "ID": 36,
+    "ShortName": "PNBCORP",
+    "Bank": "Punjab National Bank CORPORATE",
+    "PaymentMethod": "NB_PNBCORP"
+  },
+  {
+    "ID": 53,
+    "ShortName": "PMCB",
+    "Bank": "Punjab and Maharashtra Coop Bank",
+    "PaymentMethod": "NB_PMCB"
+  },
+  {
+    "ID": 54,
+    "ShortName": "PNJSB",
+    "Bank": "Punjab and Sind Bank",
+    "PaymentMethod": "NB_PNJSB"
+  },
+  {
+    "ID": 55,
+    "ShortName": "RATN",
+    "Bank": "Ratnakar Bank",
+    "PaymentMethod": "NB_RATN"
+  },
+  {
+    "ID": 56,
+    "ShortName": "RBS",
+    "Bank": "Royal Bank of Scotland",
+    "PaymentMethod": "NB_RBS"
+  },
+  {
+    "ID": 63,
+    "ShortName": "SVC",
+    "Bank": "SVC Cooperative Bank",
+    "PaymentMethod": "NB_SVC"
+  },
+  {
+    "ID": 43,
+    "ShortName": "SARASB",
+    "Bank": "Saraswat Bank",
+    "PaymentMethod": "NB_SARASB"
+  },
+  {
+    "ID": 57,
+    "ShortName": "SVCB",
+    "Bank": "Shamrao Vithal Coop Bank",
+    "PaymentMethod": "NB_SVCB"
+  },
+  {
+    "ID": 22,
+    "ShortName": "SOIB",
+    "Bank": "South Indian Bank",
+    "PaymentMethod": "NB_SOIB"
+  },
+  {
+    "ID": 41,
+    "ShortName": "SCB",
+    "Bank": "Standard Chartered Bank",
+    "PaymentMethod": "NB_SCB"
+  },
+  {
+    "ID": 17,
+    "ShortName": "SBBJ",
+    "Bank": "State Bank of Bikaner and Jaipur",
+    "PaymentMethod": "NB_SBBJ"
+  },
+  {
+    "ID": 18,
+    "ShortName": "SBH",
+    "Bank": "State Bank of Hyderabad",
+    "PaymentMethod": "NB_SBH"
+  },
+  {
+    "ID": 19,
+    "ShortName": "SBI",
+    "Bank": "State Bank of India",
+    "PaymentMethod": "NB_SBI"
+  },
+  {
+    "ID": 20,
+    "ShortName": "SBM",
+    "Bank": "State Bank of Mysore",
+    "PaymentMethod": "NB_SBM"
+  },
+  {
+    "ID": 29,
+    "ShortName": "SBP",
+    "Bank": "State BIDank of Patiala",
+    "PaymentMethod": "NB_SBP"
+  },
+  {
+    "ID": 21,
+    "ShortName": "SBT",
+    "Bank": "State Bank of Travancore",
+    "PaymentMethod": "NB_SBT"
+  },
+  {
+    "ID": 44,
+    "ShortName": "SYNB",
+    "Bank": "Syndicate Bank",
+    "PaymentMethod": "NB_SYNB"
+  },
+  {
+    "ID": 58,
+    "ShortName": "TNSC",
+    "Bank": "Tamil Nadu State Apex Coop Bank",
+    "PaymentMethod": "NB_TNSC"
+  },
+  {
+    "ID": 42,
+    "ShortName": "TMB",
+    "Bank": "Tamilnad Mercantile Bank",
+    "PaymentMethod": "NB_TMB"
+  },
+  {
+    "ID": 45,
+    "ShortName": "UCOB",
+    "Bank": "UCO Bank",
+    "PaymentMethod": "NB_UCOB"
+  },
+  {
+    "ID": 23,
+    "ShortName": "UBI",
+    "Bank": "Union Bank of India",
+    "PaymentMethod": "NB_UBI"
+  },
+  {
+    "ID": 24,
+    "ShortName": "UNIB",
+    "Bank": "United Bank Of India",
+    "PaymentMethod": "NB_UNIB"
+  },
+  {
+    "ID": 25,
+    "ShortName": "VJYB",
+    "Bank": "Vijaya Bank",
+    "PaymentMethod": "NB_VJYB"
+  },
+  {
+    "ID": 26,
+    "ShortName": "YESB",
+    "Bank": "Yes Bank",
+    "PaymentMethod": "NB_YESB"
+  }
+]
